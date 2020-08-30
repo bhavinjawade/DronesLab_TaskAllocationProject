@@ -1,3 +1,6 @@
+> **Reading notes from the following paper:** https://apps.dtic.mil/dtic/tr/fulltext/u2/a627417.pdf
+
+
 ## Criteria's to evaluate a task allocation algorithm
 
 1. Offline or Online algorithm
