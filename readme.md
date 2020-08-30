@@ -85,8 +85,8 @@ this process will be explored throughout the rest of this report.
 
 For the purposes of this paper, submodularity can be defined as follows: the marginal score function F(S|A) for incrementing an allocation by a set S to an existing task allocation A, must satisfy the following 
 
-$$F(S|A') ≥ F(S|A) (2) \\ 
-∀ A' \ s.t. \ A' ⊂ A$$
+<img src="https://render.githubusercontent.com/render/math?math=F(S|A') ≥ F(S|A)">
+<img src="https://render.githubusercontent.com/render/math?math=\forall A' \ s.t. \ A' \subset A">
 
 ```
 Submodular score functions are essential for LICA algorithms to guarantee convergence.
