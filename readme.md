@@ -88,9 +88,16 @@ For the purposes of this paper, submodularity can be defined as follows: the mar
 $$F(S|A') ≥ F(S|A) (2) \\ 
 ∀ A' \ s.t. \ A' ⊂ A$$
 
-> Submodular score functions are essential for LICA algorithms to guarantee convergence.
-
+```
+Submodular score functions are essential for LICA algorithms to guarantee convergence.
+```
 **Important**
 
 > This paper presents an online process to modify a LICA
 algorithm called the consensus based bundle algorithm (CBBA) that enables the use of non-submodular score functions while still guaranteeing convergence. The principles of the approach are quite general and could be applied to many LICA algorithms.
+
+> **Question to ask to professor** 
+> Please explain why LICA won't work with non-submodular score functions.
+
+Submodularity means, a set function representing natural marginal diminishing returns property.
+as we keep adding values to set, the difference of original value and new value of function decreases as size of the set increases.
