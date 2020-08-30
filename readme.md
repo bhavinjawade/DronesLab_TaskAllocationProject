@@ -31,7 +31,7 @@ The design criteria for creating the best algorithms for a given environment bec
 
 ![Comparison of approaches on different network bandwidths](2020-08-27-00-38-54.png)
 
-###GICA and LICA.
+### GICA and LICA.
 
 Thus, advanced communication protocols are typically required for decentralized algorithms to optimize over desired objectives.
 
@@ -54,13 +54,13 @@ This lack of assignment guarantee can lead to instability in the convergence pro
 property called submodularity, algorithms that only require LICA may not converge.
 
 
-#####Some objective functions that are **non-submodular**:
+##### Some objective functions that are **non-submodular**:
 1. Fuel penalties
 2. information gathering metrics.
 3. cooperative tasking metrics
 4. stochastic objectives
    
-####Problem Formulation
+#### Problem Formulation
 
 ![](2020-08-30-01-37-59.png)
 
